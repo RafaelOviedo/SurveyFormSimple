@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="formstyle.css" />
+    </head>
+
+    <body>
+        <main>
+            <h1 id="title">Recruiting Data Form</h1>
+            <p id="description">Thanks for taking the time to fill this form</p>
+            <form id="survey-form" action="">
+                <label for="name" id="name-label">Name</label>
+                <br/>
+                <br/>
+                <input id="name" value="" type="text" name="name" placeholder="Write your name..."/ required>
+                <br />
+                <br/>
+                <label for="email" id="email-label">Email</label>
+                <br/>
+                <br/>
+                <input id="email" value="" type="email" name="email" placeholder="Write your email..." required/>
+                <br />
+                <br/>
+                <label for="number" id="number-label">Age</label>
+                <br/>
+                <br/>
+                <input id="number" value="" type="number" name="number" placeholder="Write your age..." min="10" max="90"/>
+                <br/>
+                <br/> 
+
+                <label>What would you say is your current role?</label>
+                <br/>
+                <br/>
+                    <select id="dropdown">
+                    <option disabled>Select your current role</option>
+                    <option>Student</option>
+                    <option>Professional</option>
+                    <option>Freelancer</option>
+                    <option>None of other answers</option>
+                </select>
+                
+                <br/>
+                <br/>
+                <label>Would you recommend our page?</label>
+                <br/>
+                <br/>
+                <input value="Yes" type="radio" name="recomendation" />
+                <label>Yes</label>
+                <br/>
+                <input value="no" type="radio" name="recomendation" />
+                <label>No</label>
+                <br/>
+                <input value="irrelevant" type="radio" name="recomendation" />
+                <label>Irrelevant</label>
+                <br/>
+                <br/>
+
+                <label>What would you like to see improved in our page? (check all that apply)</label>
+                <br/>
+                <br/>
+                <input type="checkbox" value="visuals" />
+                <label>Visuals</label>
+                <br/>
+                <input type="checkbox" value="content arrangement" />
+                <label>Content arrangement</label>
+                <br/>
+                <input type="checkbox" value="color distribution" />
+                <label>Color distribution</label>
+                <br/>
+                <input type="checkbox" value="font styles" />
+                <label>Font styles</label>
+                <br/>
+                <input type="checkbox" value="all" />
+                <label>All</label>
+                <br/>
+                <input type="checkbox" value="anything" />
+                <label>Anything</label>
+                <br/>
+                <br/>
+
+                <label>Would like you to leave a comment about anything else?</label> 
+                <br/>
+                </br>
+                <textarea></textarea>
+                
+
+
+                <br/>
+                <br/>
+                <button id="submit" type="submit">Submit</button>
+
+                
+ 
+
+            
+
+           
+
+
+
+
+            </form>
+        </main>
+    </body>
+
+</html>

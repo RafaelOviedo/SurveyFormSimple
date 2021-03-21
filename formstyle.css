@@ -1,0 +1,84 @@
+body {
+    background-color: grey;
+    background: url("https://images3.alphacoders.com/813/813087.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+form {
+    width: 50%;
+    height: 1100px;
+    background-color: #A240AF  ;
+    margin: auto;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.95;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 14px 20px;
+    color: white;
+    background-color: #41F010;
+    opacity: 1;
+    border: 1px solid #41F010;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+}
